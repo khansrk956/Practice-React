@@ -11,4 +11,11 @@ git list
 <br>
 git clone paste your https://repository link here to create clone inside pc/laptop.
 <br>
+git add 
+<br>
+git commit -m "then message which was related to update or modified file"
+<br>
+then after add and comming push the code local machine to github account repository
+<br>
+git push origin main
 
