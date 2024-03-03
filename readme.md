@@ -8,3 +8,7 @@ git config --global user.email "khansrk956@gmail.com"
 git --version
 <br>
 git list
+<br>
+git clone paste your https://repository link here to create clone inside pc/laptop.
+<br>
+
