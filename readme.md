@@ -18,4 +18,10 @@ git commit -m "then message which was related to update or modified file"
 then after add and comming push the code local machine to github account repository
 <br>
 git push origin main
-
+<br>
+If git push origin main isn't working then use command 
+<br>
+git pull origin main
+then 
+<br> use
+git push origin main.
