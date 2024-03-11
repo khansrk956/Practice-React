@@ -18,9 +18,13 @@ function Github(){
         
     
     return (
-        <div className="text-center m-4 bg-gray-600 ext-white p-4 text-3xl">Github followers: {data.followers}
-        <img src = {data.avatar_url} alt = "Git picture" width={300} />
-        {/* <p>About: {data.data}</p> */}
+        
+        <div className=" flex justify-center items-center bg-purple-400" >
+        <p className="text-center m-4 bg-gray-600 ext-white p-4 text-3xl ">Github followers: {data.followers}
+        </p>
+        <img className="m-2" src = {data.avatar_url} alt = "Git picture" width={300} />
+        <h2 className="text-center m-4 bg-gray-600 ext-white p-4 text-3xl">Name:{data.name}</h2>
+        {/* <p>About: {data.fetch}</p> */}
         </div>
     )
 }
